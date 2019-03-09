@@ -1,0 +1,14 @@
+CREATE DATABASE collegerecord;
+USE collegerecord;
+create table student (name varchar(100), regno varchar(100), department varchar(100),phoneno varchar(100) );
+select * from student; 
+INSERT into student (name,regno , department ,phoneno) VALUES ("shweta",730916104117,"cse",9095224028); 
+INSERT into student (name,regno , department ,phoneno) VALUES ("badboy17",73091610411,"areo",9095224028); 
+INSERT into student (name,regno , department ,phoneno) VALUES ("bbb",7309161041,"eec",9095224028); 
+select * from student;
+DELETE FROM student WHERE regno = 7309161041;
+select * from student;
+select name,regno,department,phoneno from student where department=("aero");
+select * from student;
+select department from student where department=("cse");
+
